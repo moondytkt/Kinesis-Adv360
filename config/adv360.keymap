@@ -61,20 +61,20 @@
 
         layer_macOS{
             bindings = <
-    &kp GRAVE  &kp N1         &kp N2    &kp N3     &kp N4  &kp N5               &kp LG(LS(N4))                                                                                        &mo 4  &kp N6  &kp N7     &kp N8    &kp N9    &kp N0        &mt EQUAL MINUS
-      &kp DEL   &kp Q          &kp W     &kp E      &kp R   &kp T              &mt LG(V) LG(C)                                                                                    &kp LG(F)   &kp Y   &kp U      &kp I     &kp O     &kp P  &mt RA(NUMBER_6) BSLH
- &kp CAPSLOCK   &kp A          &kp S     &kp D      &kp F   &kp G            &kp RA(RS(RCTRL))        &kp ESC           &kp RCMD                  &kp RALT  &kp RIGHT_CONTROL  &kp RA(RC(S))   &kp H   &kp J      &kp K     &kp L  &kp SEMI                &kp SQT
-    &kp LSHFT   &kp Z          &kp X     &kp C      &kp V   &kp B                                                   &kp C_VOL_UP                        &kp C_MUTE                            &kp N   &kp M  &kp COMMA   &kp DOT  &kp FSLH              &kp RSHFT
-        &mo 2  &tog 1  &kp RA(RCTRL)  &kp LEFT  &kp RIGHT                            &kp SPACE  &kp BACKSPACE  &kp C_VOLUME_DOWN                  &kp C_PLAY_PAUSE   &kp TAB      &kp ENTER          &kp UP   &kp DOWN  &kp LBKT  &kp RBKT                  &mo 2
+    &kp GRAVE  &kp N1           &kp N2         &kp N3     &kp N4  &kp N5  &kp LG(LS(N4))                                                                                          &mo 4          &kp N6  &kp N7  &kp N8     &kp N9    &kp N0    &mt EQUAL MINUS
+      &kp DEL   &kp Q           &kp W          &kp E      &kp R   &kp T   &kp LG(LS(N2))                                                                                          &kp LG(F)      &kp Y   &kp U   &kp I      &kp O     &kp P     &mt RA(NUMBER_6) BSLH
+ &kp CAPSLOCK   &kp A           &kp S          &kp D      &kp F   &kp G   &mt LG(V) LG(C)                    &kp ESC  &kp RCMD              &kp RALT  &kp RIGHT_CONTROL           &kp RA(RC(S))  &kp H   &kp J   &kp K      &kp L     &kp SEMI  &kp SQT
+    &kp LSHFT   &kp Z           &kp X          &kp C      &kp V   &kp B                                               &kp C_VOL_UP          &kp C_MUTE                                           &kp N   &kp M   &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
+       &tog 1   &RA(RS(RCTRL))  &kp RA(RCTRL)  &kp LEFT  &kp RIGHT                     &kp SPACE  &kp BACKSPACE  &kp C_VOLUME_DOWN          &kp C_PLAY_PAUSE  &kp TAB  &kp ENTER                         &kp UP  &kp DOWN   &kp LBKT  &kp RBKT  &mo 2
             >;
         };
 
         layer_winOS {
             bindings = <
-  &kp GRAVE  &kp N1         &kp N2    &kp N3     &kp N4  &kp N5               &kp LC(LA(DEL))                                                                                        &mo 4  &kp N6  &kp N7     &kp N8    &kp N9    &kp N0        &mt EQUAL MINUS
-      &kp DEL   &kp Q          &kp W     &kp E      &kp R   &kp T              &mt LC(V) LC(C)                                                                                    &kp LG(F)   &kp Y   &kp U      &kp I     &kp O     &kp P  &kp BSLH
- &kp CAPSLOCK   &kp A          &kp S     &kp D      &kp F   &kp G            &kp RA(RS(RCTRL))        &kp ESC   &kp LEFT_CONTROL                          &kp RALT  &kp RCMD  &kp RA(RC(S))   &kp H   &kp J      &kp K     &kp L  &kp SEMI                &kp SQT
-    &kp LSHFT   &kp Z          &kp X     &kp C      &kp V   &kp B                                                   &kp C_VOL_UP                        &kp C_MUTE                            &kp N   &kp M  &kp COMMA   &kp DOT  &kp FSLH              &kp RSHFT
+  &kp GRAVE  &kp N1         &kp N2    &kp N3     &kp N4  &kp N5              &kp LC(LA(DEL))                                                                                        &mo 4  &kp N6  &kp N7     &kp N8    &kp N9    &kp N0        &mt EQUAL MINUS
+      &kp DEL   &kp Q          &kp W     &kp E      &kp R   &kp T            &kp RA(RS(RCTRL))                                                                                    &kp LG(F)   &kp Y   &kp U      &kp I     &kp O     &kp P  &kp BSLH
+ &kp CAPSLOCK   &kp A          &kp S     &kp D      &kp F   &kp G            &mt LC(V) LC(C)         &kp ESC   &kp LEFT_CONTROL                          &kp RALT  &kp RCMD  &kp RA(RC(S))   &kp H   &kp J      &kp K     &kp L  &kp SEMI                &kp SQT
+    &kp LSHFT   &kp Z          &kp X     &kp C      &kp V   &kp B                                              &kp C_VOL_UP                        &kp C_MUTE                            &kp N   &kp M  &kp COMMA   &kp DOT  &kp FSLH              &kp RSHFT
         &mo 2  &tog 1  &kp LC(P)  &kp LEFT  &kp RIGHT                            &kp SPACE  &kp BACKSPACE  &kp C_VOLUME_DOWN                  &kp C_PLAY_PAUSE   &kp TAB      &kp ENTER          &kp UP   &kp DOWN  &kp LBKT  &kp RBKT                  &mo 2
             >;
         };
