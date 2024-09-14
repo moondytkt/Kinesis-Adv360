@@ -78,7 +78,7 @@
 
         layer_CSGO{
             bindings = <
-    &trans  &kp ESC           &kp N1  &kp N2  &kp N3  &kp N4  &kp N5                                                                                  &tog 4         &kp N6  &kp N7  &kp N8     &kp N9    &kp N0    &mt EQUAL MINUS
+    &kp ESC &kp N1            &kp N1  &kp N2  &kp N3  &kp N4  &kp N5                                                                                  &tog 4         &kp N6  &kp N7  &kp N8     &kp N9    &kp N0    &mt EQUAL MINUS
     &trans  &kp TAB           &kp Q   &kp W   &kp E   &kp R   &kp T                                                                                   &kp LG(F)      &kp Y   &kp U   &kp I      &kp O     &kp P     &kp BSLH
     &trans  &kp LSHFT         &kp A   &kp S   &kp D   &kp F   &kp G                &kp B  &kp C_MUTE                          &tog 3  &tog 3          &kp RA(RC(S))  &kp H   &kp J   &kp K      &kp L     &kp SEMI  &kp SQT
     &trans  &kp LEFT_CONTROL  &kp Z   &kp X   &kp C   &kp V                               &kp C_VOL_UP                        &tog 3                                 &kp N   &kp M   &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
