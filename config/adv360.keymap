@@ -8,7 +8,9 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/rgb.h>
+#include <dt-bindings/zmk/stp.h>
 #include <dt-bindings/zmk/backlight.h>
+#include <dt-bindings/zmk/pointing.h>
 
 / {
     combos {
@@ -35,7 +37,7 @@
         combo_blt {
             timeout-ms = <50>;
             key-positions = <6 20 34>;
-            bindings = <&tog 4>;
+            bindings = <&tog 3>;
                      };
           };
 };
@@ -80,17 +82,6 @@
       &trans     &kp PERCENT      &kp CARET    &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp TILDE                          &trans                 &trans                         &trans  &kp N1  &kp N2  &kp N3      &trans   &trans
       &trans     &trans           &trans       &kp LEFT              &kp RIGHT                                 &trans  &trans  &trans                 &trans  &trans  &trans                 &trans  &kp N0  &kp KP_DOT  &trans   &trans
             >;
-        };
-
-        layer_CSGO{
-            bindings = <
-    &kp ESC &kp N1            &kp N1  &kp N2  &kp N3  &kp N4  &kp N5                                                                                  &tog 4         &kp N6  &kp N7  &kp N8     &kp N9    &kp N0    &mt EQUAL MINUS
-    &trans  &kp TAB           &kp Q   &kp W   &kp E   &kp R   &kp T                                                                                   &kp LG(F)      &kp Y   &kp U   &kp I      &kp O     &kp P     &kp BSLH
-    &trans  &kp LSHFT         &kp A   &kp S   &kp D   &kp F   &kp G                &kp B  &kp C_MUTE                          &tog 3  &tog 3          &kp RA(RC(S))  &kp H   &kp J   &kp K      &kp L     &kp SEMI  &kp SQT
-    &trans  &kp LEFT_CONTROL  &kp Z   &kp X   &kp C   &kp V                               &kp C_VOL_UP                        &tog 3                                 &kp N   &kp M   &kp COMMA  &kp DOT   &kp FSLH  &kp RSHFT
-    &trans  &trans            &trans  &kp F1  &kp F2                  &kp SPACE  &kp TAB  &kp C_VOLUME_DOWN                   &tog 3  &tog 3  &tog 3                         &kp UP  &kp DOWN   &kp LBKT  &kp RBKT  &trans
-            >;
-
         };
 
         layer_SETTINGS {
