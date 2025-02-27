@@ -43,7 +43,7 @@
         combo_alt {
             timeout-ms = <50>;
             key-positions = <55 56>;
-            bindings = <&kp LALT>;
+            bindings = <&kp LA(Z)>;
                      };
           };
 };
