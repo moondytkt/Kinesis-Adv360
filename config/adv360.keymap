@@ -34,16 +34,22 @@
             bindings = <&tog 1>;
                      };
 
-        combo_blt {
+        combo_bltR {
             timeout-ms = <50>;
             key-positions = <6 20 34>;
             bindings = <&tog 3>;
                      };
 
-        combo_alt {
+        combo_bltL {
+            timeout-ms = <50>;
+            key-positions = <7 21 39>;
+            bindings = <&tog 3>;
+                     };
+
+        combo_control {
             timeout-ms = <50>;
             key-positions = <55 56>;
-            bindings = <&kp LEFT_CONTROL>;
+            bindings = <&kp LCTRL>;
                      };
           };
 };
