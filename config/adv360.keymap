@@ -46,10 +46,18 @@
             bindings = <&tog 3>;
                      };
 
-        combo_control {
+        combo_controlMAC {
             timeout-ms = <50>;
             key-positions = <49 50>;
             bindings = <&kp LEFT_CONTROL>;
+            layers = <0>
+                     };
+
+        combo_altWIN {
+            timeout-ms = <50>;
+            key-positions = <49 50>;
+            bindings = <&kp LEFT_CONTROL>;
+            layers = <1>
                      };
           };
 };
